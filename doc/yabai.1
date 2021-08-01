@@ -640,6 +640,16 @@ Name of application. If \fI!\fP is present, invert the match.
 Title of window. If \fI!\fP is present, invert the match.
 .RE
 .sp
+\fBrole[!]=\fI<REGEX>\fP\fP
+.RS 4
+Role of window. If \fI!\fP is present, invert the match.
+.RE
+.sp
+\fBsubrole[!]=\fI<REGEX>\fP\fP
+.RS 4
+Subrole of window. If \fI!\fP is present, invert the match.
+.RE
+.sp
 \fBdisplay=\fI[^]<DISPLAY_SEL>\fP\fP
 .RS 4
 Send window to display. If \fI^\fP is present, follow focus.
@@ -970,4 +980,3 @@ Arbitrary command executed through \fB/usr/bin/env sh \-c\fP
 If \fByabai\fP can\(cqt handle a message, it will return a non\-zero exit code.
 .SH "AUTHOR"
 .sp
-Åsmund Vikane <aasvi93 at gmail.com>
